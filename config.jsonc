@@ -72,10 +72,9 @@
         },
         {
             "type": "shell",
-            "key": "└ └",
+            "key": "│ ├",
             "keyColor": "red"
         },
-        "break",
         {
             "type": "de",
             "key": " DE",
@@ -84,16 +83,6 @@
         {
             "type": "lm",
             "key": "│ ├",
-            "keyColor": "red"
-        },
-        {
-            "type": "wm",
-            "key": "│ ├",
-            "keyColor": "red"
-        },
-        {
-            "type": "wmtheme",
-            "key": "│ ├󰉼",
             "keyColor": "red"
         },
         {
@@ -129,11 +118,6 @@
         {
             "type": "custom",
             "format": "\u001b[31m└────────────────────────────────────────────────────┘"
-        },
-        {
-            "type": "colors",
-            "paddingLeft": 2,
-            "symbol": "circle"
         }
     ]
 }
