@@ -1,0 +1,139 @@
+{
+    "logo": {
+        "type": "kitty-direct",
+        "source": "~/.config/fastfetch/images/berserk-logo.png",
+        "height": 15,
+        "width": 30,
+        "padding": {
+            "top": 5,
+            "left": 0,
+            "right": 0
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[31m┌──────────────────────Hardware──────────────────────┐"
+        },
+        {
+            "type": "host",
+            "key": " PC",
+            "keyColor": "red"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ├",
+            "keyColor": "red"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├󰍛",
+            "keyColor": "red"
+        },
+        {
+            "type": "memory",
+            "key": "│ ├󰍛",
+            "keyColor": "red"
+        },
+        {
+            "type": "disk",
+            "key": "└ └",
+            "keyColor": "red"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[31m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[31m┌──────────────────────Software──────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": " OS",
+            "keyColor": "red"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├",
+            "keyColor": "red"
+        },
+        {
+            "type": "bios",
+            "key": "│ ├",
+            "keyColor": "red"
+        },
+        {
+            "type": "packages",
+            "key": "│ ├󰏖",
+            "keyColor": "red"
+        },
+        {
+            "type": "shell",
+            "key": "└ └",
+            "keyColor": "red"
+        },
+        "break",
+        {
+            "type": "de",
+            "key": " DE",
+            "keyColor": "red"
+        },
+        {
+            "type": "lm",
+            "key": "│ ├",
+            "keyColor": "red"
+        },
+        {
+            "type": "wm",
+            "key": "│ ├",
+            "keyColor": "red"
+        },
+        {
+            "type": "wmtheme",
+            "key": "│ ├󰉼",
+            "keyColor": "red"
+        },
+        {
+            "type": "terminal",
+            "key": "└ └",
+            "keyColor": "red"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[31m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[31m┌──────────────────────Uptime / Age / DT─────────────┐"
+        },
+        {
+            "type": "command",
+            "key": "  OS Age ",
+            "keyColor": "red",
+            "text": "birth_install=$(stat -f %m /var/db/.AppleSetupDone); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "uptime",
+            "key": "  Uptime ",
+            "keyColor": "red"
+        },
+        {
+            "type": "datetime",
+            "key": "  DateTime ",
+            "keyColor": "red"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[31m└────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        }
+    ]
+}
